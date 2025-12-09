@@ -1,3 +1,4 @@
 data/
-*.dblwr
+*.sqlite3
 *.log
+__pycache__/

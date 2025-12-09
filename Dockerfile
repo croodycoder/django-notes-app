@@ -17,4 +17,4 @@ COPY . /app/backend
 EXPOSE 8000
 
 # Run Django dev server
-CMD ["gunicorn", "django_notes_app.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "notesapp.wsgi:application", "--bind", "0.0.0.0:8000"]
